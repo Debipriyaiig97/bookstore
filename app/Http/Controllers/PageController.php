@@ -11,7 +11,7 @@ class PageController extends Controller
     public function index(Request $request)
     {
         try {
-        $data['book'] = Book::where(['isdeleted'=>0])->paginate(12);     
+        $data['book'] = Book::where(['isdeleted'=>0])->paginate(3);     
          return view('frontend.index',$data);
         } catch (\Throwable $th) {
             throw $th;
@@ -28,7 +28,7 @@ class PageController extends Controller
         ->where('author','LIKE','%'.$author.'%')
         ->where('genre','LIKE','%'.$genre.'%')
         ->where('isbn','LIKE','%'.$isbn.'%')
-        ->paginate(12);     
+        ->paginate(3);     
          return view('frontend.index',$data);
         } catch (\Throwable $th) {
             throw $th;

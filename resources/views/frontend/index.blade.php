@@ -48,7 +48,7 @@
               </div><!-- /.post__img -->
               <div class="post__body">
                 <div class="post__meta-cat">
-                  <h2>{{ $val->title }}</h2>
+                  <h6 style="color: white;">{{ $val->title }}</h6>
                 </div><!-- /.blog-meta-cat -->
                 <div class="post__meta d-flex">
                   <span class="post__meta-date">{{ date('M d, Y',strtotime($val->published)) }}</span>

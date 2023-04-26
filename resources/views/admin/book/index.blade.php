@@ -14,7 +14,7 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="table-responsive">
-						<table id="datatable-jquery" class="table">
+						<table class="table">
 							<thead>
 								<tr>
 									<th>#</th>
@@ -55,7 +55,7 @@
 							<div class="modal fade" id="editbook{{ $val->id}}" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
 								<div class="modal-dialog" role="document">
 									<div class="modal-content" style="width: 150% !important;">
-										<form method="POST" action="{{ route('admin.updateBook') }}">
+										<form method="POST" action="{{ route('admin.updateBook') }}"  enctype="multipart/form-data">
 											@csrf
 											<div class="modal-header header-background">
 												<h5 class="modal-title text-white" id="ModalLabel">Edit Book</h5>
@@ -125,7 +125,7 @@
 <div class="modal fade" id="addFormModal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content" style="width: 150% !important;">
-			<form id="ajaxForm" method="POST" action="{{ route('admin.createBook') }}">
+			<form id="ajaxForm" method="POST" action="{{ route('admin.createBook') }}"  enctype="multipart/form-data">
 				@csrf
 				<div class="modal-header header-background">
 					<h5 class="modal-title text-white" id="ModalLabel">Add Book</h5>
