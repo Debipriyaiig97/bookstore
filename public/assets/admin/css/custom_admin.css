@@ -1,0 +1,174 @@
+/* request loader css start */
+
+.request-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #0000007a;
+    z-index: 10000;
+    display: none;
+}
+
+.request-loader img {
+    position: fixed;
+    display: none;
+    width: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.request-loader.show {
+    display: block;
+}
+
+.request-loader.show img {
+    display: block;
+}
+
+/* request loader css end */
+
+.header-background {
+    background-color: #16c3c1 !important;
+}
+
+.center-custom {
+    display: flex;
+    justify-content: center;
+}
+
+.popover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0 2px 10px;
+}
+
+.arrow {
+    display: none !important;
+}
+
+.popover-body>img {
+    width: 100%;
+    max-height: 50%;
+}
+
+.popover-body {
+    padding: 0;
+    border-radius: 7px;
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+    width: 45%;
+    display: inline-block;
+}
+
+.col-md-6>.dropify-wrapper {
+    height: 150px;
+}
+
+.table-btn {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.dataTables_wrapper .dataTable .btn {
+    padding: 5px;
+    vertical-align: top;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d9534f;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #d62c27;
+    border-color: #d62c27;
+}
+
+.btn-danger:not(:disabled):not(.disabled):active {
+    color: #fff;
+    background-color: #d62c27;
+    border-color: #d62c27;
+}
+
+.btn-danger:focus,
+.btn-danger.focus {
+    background-color: #d62c27;
+    border-color: #d62c27;
+}
+
+.table td img,
+.jsgrid .jsgrid-table td img {
+    width: 80px;
+    height: 60px;
+    border-radius: 5% !important;
+}
+
+.sidebar .nav .nav-item .nav-link i.menu-icon {
+    margin-bottom: 5px !important;
+}
+
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .count-indicator i {
+    margin-bottom: 8px !important;
+    margin-top: 5px !important
+}
+
+.icheck label,
+.icheck-flat label,
+.icheck-square label,
+.icheck-line label {
+    font-size: .8125rem;
+    line-height: 2.2;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+.bg-danger {
+    background-color: #d9534f !important;
+}
+
+button.bg-danger:hover {
+    background-color: #d62c27 !important;
+}
+
+.remove-underline-and-color-from-a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+a.not-anchor, a:hover.not-anchor, a:focus.not-anchor, a:active.not-anchor {
+    color: #fff;
+    text-decoration: none;
+    color: inherit;
+}
+
+.sidebar .nav .nav-item.nav-profile .nav-link{
+    padding: 0px;
+}
+
+.sidebar-fixed .sidebar{
+    top: 10px;
+}
+
+.primg{
+    border-radius:unset !important;
+}
+
+.fa-icon-class>i, .fa-icon-class>span{
+    margin-left: -3px !important;
+}
+
+.drp-dn-icn {
+    margin-left: 8px !important;
+}
+
+.input-group-text, .select2-container--default .select2-selection--single, .select2-container--default .select2-dropdown, .select2-container--default .select2-selection--multiple, .dropify-wrapper{
+    border-color: #bbc7c5 !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    margin-top: 8px !important;
+}
